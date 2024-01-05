@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+ *,body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    
+    padding: 0;
+    border: 2px 1px solid brown;
+}
+.top-portion{   
+    background-color: #E4F2DB;
+    text-align: center;
+    height: 103vh;
+    padding: 20px;
+    position: relative;
+
+}
+.nick-name{
+    color: coral;
+    text-align: center;
+}
+.name-personal h2{
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+.name-personal{
+    margin-top: 150px;
+}
+.im{
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.mohammad{
+    font-size: 4.5rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 800;
+    text-shadow: 2px 2px 1px black;
+}
+
+.left-cloud{
+    height: 250px;
+    position: absolute;
+    left: 460px;
+    top: 3px;
+    margin: 0;
+
+}
+.right-cloud{
+    height: 250px;
+    position: absolute;
+    top: 400px;
+}
+.snail{
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    left: 570px;
+}
+@media only screen and (max-width: 800px) {
+    
+    .right-cloud{
+        position: absolute;
+        top: 420px;
+        left: 00px;
+        height: 200px;
+    }
+    .left-cloud{
+        position: absolute;
+        top: 3px;
+        left: 90px;
+        height: 200px;
+    }
+    .snail{
+        position: absolute;
+        left: 100px;
+        height: 120px;
+        top: 450px;
+    }
+    *,body {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+/* ----------------ABOUT------------------- */
+section {
+    width: 80%;
+    margin: 20px auto;
+}
+.gufran-img{
+    border-radius: 50%;
+    height: 180px;
+}
+#about{
+    text-align: center;
+    width: 800px;
+    padding-top: 40px;
+}
+
+#about p{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+#about h2{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    color: #064172;
+}
+p {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+#about h3{
+    color: #064172;
+    margin-top: 30px;
+}
+
+button{
+    height: 4rem;
+    width: 10rem;
+    border-radius: 20px;
+    border: 2px solid yellow;
+    color: white;
+    background-color: #3E4B58;
+    font-size: 1.4rem;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    #about {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        margin: 0px; /* Adjust the margin for smaller screens */
+    }
+}
+/* ----------------SKILLS--------------------- */
+section {
+    width: 80%;
+    margin: 20px auto;
+}
+#skills img{
+    height: 80px;
+    border-radius: 50%;
+    
+}
+
+#skills h2{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    color: #064172;
+}
+
+#skills{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#skills li{
+    display: inline-block;
+    padding: 40px;
+
+}
+/* -------------INTRESTS--------------- */
+section {
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+}
+#Intrest h2{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    color: #064172;
+    text-align: center;
+}
+.card-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.card-1 h4{
+    margin-bottom: 10px; 
+}
+.card-1 img{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+}
+.card-1 p{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .card-1{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .card-1 img{
+        height: 200px;
+        width: auto;
+    }
+    .intrest{
+        width: 100%; /* Set the width to 100% for smaller screens */
+        margin: 0px;
+        padding: 0px;
+    }
+}
+/* ---------------Hobbies----------------------- */
+.hobbies-container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    
+}
+section h2{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    color: #064172;
+    text-align: center;
+}
+section h3{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.card img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+@media only screen and (max-width: 800px)  {
+    .hobbies-container{
+        display: block;
+        text-align: center;
+    }
+    section h3{
+        margin-top: 30px;
+    }
+    .hobbies{
+        width: 100%; /* Set the width to 100% for smaller screens */
+        margin: 0px;
+    }
+}
+
+/* -------------Social------------------------- */
+.get-in-tuch p{
+    font-size: 1.5rem;
+}
+.get-in-tuch{
+    text-align: center;
+}
+.social-names img{
+    height: 3rem;
+    margin: 30px;
+}
+
+
+/* -----------------FOOTER------------------------------- */
+footer {
+    background-color: #9DD7B1;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+
+}
+footer p{
+    color: rgb(22, 21, 21);
+    font-weight: bold;
+}
+
